@@ -29,7 +29,7 @@
             "star_color": "#C48A98",
             "bg_stars_style": "full",
             "bg_star_color": "#e8d8dc",
-            "label": "4.8 / 5  ·  2,847+ verified reviews",
+            "label": "4.8 / 5  ·  2,341+ verified reviews",
             "size": 16,
             "alignment": "flex-start",
             "scroll_id": "",
@@ -40,7 +40,7 @@
         "subtitle_block": {
           "type": "text",
           "settings": {
-            "text": "<p>The weighted sleep mask that quiets your mind and holds you in darkness — so you actually sleep.</p>",
+            "text": "<p>The resistance trainer with a built-in LED rep counter — so you actually see yourself getting stronger. No gym. No excuses.</p>",
             "text_style": "subtitle",
             "margin_top": 4,
             "margin_bottom": 12
@@ -52,10 +52,10 @@
             "icon": "check_circle",
             "filled_icon": true,
             "icon_color": "accent-1",
-            "item_1": "<strong>Stops racing thoughts</strong> in minutes",
-            "item_2": "<strong>100% pitch-black blackout</strong> — zero light gets through",
-            "item_3": "<strong>Cooling fabric stays fresh</strong> all night long",
-            "item_4": "<strong>60-night money-back guarantee</strong> — zero risk",
+            "item_1": "<strong>Built-in LED counter</strong> tracks every rep automatically",
+            "item_2": "<strong>6 resistance tubes</strong> for a full-body core workout",
+            "item_3": "<strong>Works from your couch, floor or chair</strong> — no gym needed",
+            "item_4": "<strong>30-day money-back guarantee</strong> — zero risk",
             "item_5": "",
             "margin_top": 12,
             "margin_bottom": 16
@@ -81,7 +81,7 @@
         "savings_label": {
           "type": "text",
           "settings": {
-            "text": "<p>🎉 You save [savings] — only while stock lasts</p>",
+            "text": "<p>🎉 You save [savings] — limited time offer</p>",
             "text_style": "caption",
             "margin_top": 0,
             "margin_bottom": 15
@@ -98,7 +98,7 @@
             "swatches_custom_colors_list": "#000000, #6D388B, #0000FF, #FFCC00",
             "full_width_dropdowns": false,
             "breaks_style": "normal",
-            "breaks_headline": "Choose Your Pack",
+            "breaks_headline": "How many do you want?",
             "breaks_display_selected_indicator": true,
             "breaks_border_radius": 10,
             "breaks_border_width": 2,
@@ -112,12 +112,12 @@
             "breaks_space_images": true,
             "breaks_vertical_images_position": "top",
             "breaks_vertical_prices_layout": "vertical",
-            "breaks_labels": "Single, Friends Pack, Family Pack",
+            "breaks_labels": "Just Me, Me + Partner, Family Pack",
             "breaks_benefits": "[empty], + Free Gifts Included, + Free Gifts Included",
             "breaks_benefit_position": "top",
             "breaks_benefit_style": "outlined",
             "breaks_benefit_color": "accent-1",
-            "breaks_captions": "Try it once, Buy 2 & Save €7,99, Buy 3 & Save €23,97",
+            "breaks_captions": "Try it risk-free, Buy 2 & Save $7, Buy 3 & Save $20",
             "breaks_price_texts": "[price], [price], [price]",
             "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
             "margin_top": 15,
@@ -132,7 +132,7 @@
             "atc_append_heights": "stretch-quantity",
             "enable_quantity_discounts": false,
             "style": "normal",
-            "headline": "Choose Your Pack",
+            "headline": "How many do you want?",
             "preselected": "option_1",
             "display_selected_indicator": true,
             "border_radius": 10,
@@ -153,12 +153,12 @@
             "option_1_badge": "",
             "option_1_badge_style": "1",
             "option_1_badge_color": "accent-1",
-            "option_1_label": "Single",
+            "option_1_label": "Just Me",
             "option_1_benefit": "",
             "option_1_benefit_position": "top",
             "option_1_benefit_style": "outlined",
             "option_1_benefit_color": "accent-1",
-            "option_1_caption": "Try it once",
+            "option_1_caption": "Try it risk-free",
             "option_1_percentage_off_text": "0",
             "option_1_fixed_amount_off": "0",
             "option_1_price_text": "[price]",
@@ -168,12 +168,12 @@
             "option_2_badge": "Most Popular",
             "option_2_badge_style": "1",
             "option_2_badge_color": "accent-1",
-            "option_2_label": "Friends Pack",
+            "option_2_label": "Me + Partner",
             "option_2_benefit": "+ Free Gifts Included",
             "option_2_benefit_position": "top",
             "option_2_benefit_style": "outlined",
             "option_2_benefit_color": "accent-1",
-            "option_2_caption": "Buy 2 & Save €7,99",
+            "option_2_caption": "Buy 2 & Save $7",
             "option_2_percentage_off_text": "0",
             "option_2_fixed_amount_off": "0",
             "option_2_price_text": "[price]",
@@ -188,7 +188,7 @@
             "option_3_benefit_position": "top",
             "option_3_benefit_style": "outlined",
             "option_3_benefit_color": "accent-1",
-            "option_3_caption": "Buy 3 & Save €23,97",
+            "option_3_caption": "Buy 3 & Save $20",
             "option_3_percentage_off_text": "0",
             "option_3_fixed_amount_off": "0",
             "option_3_price_text": "[price]",
@@ -235,7 +235,7 @@
         "trust_strip": {
           "type": "text",
           "settings": {
-            "text": "<p>🚚 Free shipping  ·  🛡️ 60-night guarantee  ·  ⚡ Ships within 24h  ·  🔒 Secure checkout</p>",
+            "text": "<p>🚚 Free shipping  ·  🛡️ 30-day guarantee  ·  ⚡ Ships within 24h  ·  🔒 Secure checkout</p>",
             "text_style": "caption",
             "margin_top": 0,
             "margin_bottom": 16
@@ -247,7 +247,7 @@
             "icon_1": "add_shopping_cart",
             "filled_icon_1": false,
             "top_text_1": "<strong>[start_date]</strong>",
-            "bottom_text_1": "Ordered",
+            "bottom_text_1": "Order placed",
             "min_days_1": 0,
             "max_days_1": 0,
             "icon_2": "local_shipping",
@@ -255,13 +255,13 @@
             "top_text_2": "<strong>[start_date] - [end_date]</strong>",
             "bottom_text_2": "Packed & Shipped",
             "min_days_2": 1,
-            "max_days_2": 2,
+            "max_days_2": 3,
             "icon_3": "redeem",
             "filled_icon_3": false,
             "top_text_3": "<strong>[start_date] - [end_date]</strong>",
             "bottom_text_3": "Arrives at Your Door",
             "min_days_3": 10,
-            "max_days_3": 12,
+            "max_days_3": 18,
             "icon_4": "",
             "filled_icon_4": false,
             "top_text_4": "",
@@ -279,12 +279,12 @@
           "settings": {
             "function": "add_to_cart",
             "display_when": "after_scroll",
-            "button_label": "Get Yours — Sleep Better Tonight →",
+            "button_label": "Get Yours — Start Counting Reps →",
             "enable_custom_btn_color": false,
             "custom_btn_color": "#8B5E6E",
             "color_scheme": "background-1",
             "star_color": "#C48A98",
-            "stars_label": "4.8/5 · 2,847+ reviews",
+            "stars_label": "4.8/5 · 2,341+ reviews",
             "picker_type": "combined",
             "desktop_show_image": true,
             "desktop_show_title": true,
@@ -333,12 +333,12 @@
             "autoplay_speed": 5,
             "display_arrows": false,
             "display_dots": true,
-            "author_1": "<em>Sarah M.</em> [stars]",
-            "text_1": "<p>I've tried everything for my insomnia. This is the only thing that has ever worked. I'm asleep within minutes and I wake up actually rested.</p>",
-            "author_2": "<em>Emma K.</em> [stars]",
-            "text_2": "<p>The gentle weight is so calming — my nighttime anxiety has completely disappeared. I didn't believe it would work. I was wrong.</p>",
-            "author_3": "<em>Julia R.</em> [stars]",
-            "text_3": "<p>Got the Friends Pack for me and my sister. We both sleep so much better. The blackout is perfect and it never gets too warm. 10/10.</p>",
+            "author_1": "<em>Jessica M.</em> [stars]",
+            "text_1": "<p>I literally use this every night while watching Netflix. The LED counter is so satisfying — I kept going just to beat my number. Already at 74 reps and I started at 12.</p>",
+            "author_2": "<em>Ashley T.</em> [stars]",
+            "text_2": "<p>I thought it was a gimmick. Then my abs were sore the next morning. I never left my couch. This thing is actually real.</p>",
+            "author_3": "<em>Rachel K.</em> [stars]",
+            "text_3": "<p>Got the Me + Partner pack. We literally compete on reps now every evening. Best $70 I've spent this year. My core is noticeably stronger after 2 weeks.</p>",
             "margin_top": 24,
             "margin_bottom": 24
           }
@@ -353,9 +353,73 @@
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p>Every LunaCore mask comes with everything you need from night one:<br>✓ Weighted sleep mask (200g calming pressure)<br>✓ Adjustable strap — one size fits all<br>✓ Breathable cooling fabric — stays fresh all night<br>✓ Luxury gift-ready box packaging<br>✓ 60-night money-back sleep guarantee</p>",
+            "content": "<p>Everything you need to start your first session today:<br>✓ LunaCore Pedal Resistance Trainer<br>✓ 6 resistance tubes (adjustable intensity)<br>✓ Built-in LED rep counter (150 mAh battery)<br>✓ Non-slip foot pedals with ankle strap anchors<br>✓ 30-Day Couch Core Plan PDF (free digital bonus)<br>✓ 30-day money-back guarantee</p>",
             "page": "",
             "margin_top": 24,
+            "margin_bottom": 0
+          }
+        },
+        "faq_tab_1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Does the LED counter actually work?",
+            "heading_size": "medium",
+            "icon": "help",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Yes — it uses a 150 mAh battery and counts mechanically every time you complete a rep. No app, no Bluetooth, no setup. Just pull and watch the number go up.</p>",
+            "page": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "faq_tab_2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I use it if I'm a complete beginner?",
+            "heading_size": "medium",
+            "icon": "help",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Absolutely. LunaCore is designed for people who haven't exercised in a while. You can start seated on a chair or sofa. The resistance is adjustable — start light, build up at your own pace. No experience needed.</p>",
+            "page": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "faq_tab_3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "When will my order arrive?",
+            "heading_size": "medium",
+            "icon": "local_shipping",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Orders ship within 1–3 business days. Delivery takes 10–18 days to the US. You'll receive a tracking number by email as soon as your order ships.</p>",
+            "page": "",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "faq_tab_4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if it doesn't work for me?",
+            "heading_size": "medium",
+            "icon": "favorite",
+            "filled_icon": false,
+            "collapse_icon": "carret",
+            "display_top_border": true,
+            "open": false,
+            "content": "<p>Use it for 30 days. If you don't feel a difference, contact us and we'll refund every cent. No forms, no questions, no hassle. We stand behind this product 100%.</p>",
+            "page": "",
+            "margin_top": 0,
             "margin_bottom": 0
           }
         }
@@ -375,7 +439,11 @@
         "e7a28cbe-03cb-4c9d-a2c4-0e3e76ffb3e5",
         "description",
         "reviews_8UgFbe",
-        "de158e68-5d0d-4819-a625-e2dabdff87d1"
+        "de158e68-5d0d-4819-a625-e2dabdff87d1",
+        "faq_tab_1",
+        "faq_tab_2",
+        "faq_tab_3",
+        "faq_tab_4"
       ],
       "custom_css": [],
       "settings": {
@@ -458,7 +526,7 @@
           "settings": {
             "column": "col_1",
             "visibility": "always-display",
-            "heading": "Why 2,847+ sleepers chose LunaCore",
+            "heading": "Why 2,341+ people chose LunaCore",
             "title_highlight_color": "#8B5E6E",
             "heading_size": "h1",
             "alignment": "center",
@@ -472,7 +540,7 @@
           "settings": {
             "column": "col_1",
             "visibility": "always-display",
-            "text": "<p>Most sleep products treat the symptoms. LunaCore treats the cause. By combining scientifically-backed weighted pressure with total-blackout design, we give your mind and body the exact signals they need to shut down — and stay down.</p>",
+            "text": "<p>Most fitness products sit in a corner collecting dust. LunaCore is different — because the LED counter makes every rep feel real. You’re not just exercising. You’re competing with yourself. And winning.</p>",
             "text_style": "body",
             "alignment": "center",
             "mobile_alignment": "mobile-center",
@@ -485,15 +553,15 @@
           "settings": {
             "column": "col_2",
             "visibility": "always-display",
-            "icon": "bedtime",
+            "icon": "show_chart",
             "filled_icon": false,
             "icon_size": "m",
             "icon_position": "next-to-title",
             "icon_color": "accent-1",
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
-            "title": "Weighted Calm",
-            "text": "<p>200g of gentle pressure activates your body's natural relaxation response — the same science behind weighted blankets, applied directly where it works best.</p>",
+            "title": "LED Rep Counter",
+            "text": "<p>The built-in LED display counts every rep automatically. No app, no Bluetooth, no setup. Just pull and watch the number climb. That number is your progress — and it doesn’t lie.</p>",
             "margin_top": 20,
             "margin_bottom": 30
           }
@@ -503,15 +571,15 @@
           "settings": {
             "column": "col_2",
             "visibility": "always-display",
-            "icon": "visibility_off",
+            "icon": "weekend",
             "filled_icon": false,
             "icon_size": "m",
             "icon_position": "next-to-title",
             "icon_color": "accent-1",
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
-            "title": "Pitch-Black Blackout",
-            "text": "<p>Even the tiniest sliver of light disrupts melatonin. LunaCore blocks 100% — street lights, phone screens, early sunrise, all of it.</p>",
+            "title": "Works From Your Couch",
+            "text": "<p>Sit on the floor, the sofa, or a chair. No gym membership. No driving. No childcare. Just 10 minutes while Netflix runs in the background — and you’re done.</p>",
             "margin_top": 20,
             "margin_bottom": 20
           }
@@ -534,15 +602,15 @@
           "settings": {
             "column": "col_4",
             "visibility": "always-display",
-            "icon": "ac_unit",
+            "icon": "fitness_center",
             "filled_icon": false,
             "icon_size": "m",
             "icon_position": "next-to-title",
             "icon_color": "accent-1",
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
-            "title": "Stays Cool All Night",
-            "text": "<p>Our breathable cooling fabric prevents overheating — the #1 reason people wake up at 3am. You stay comfortable from lights-out to morning.</p>",
+            "title": "6-Tube Full-Body Resistance",
+            "text": "<p>6 resistance tubes target your core, arms, back and legs at once. Adjust the intensity as you get stronger. One device. Multiple workouts. Zero excuses.</p>",
             "margin_top": 20,
             "margin_bottom": 30
           }
@@ -559,8 +627,8 @@
             "icon_color": "accent-1",
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
-            "title": "60-Night Guarantee",
-            "text": "<p>Sleep with it for 60 nights. If you don't feel the difference, we'll refund every cent. No forms. No questions. No hassle.</p>",
+            "title": "30-Day Guarantee",
+            "text": "<p>Use it for 30 days. If you don’t feel the difference, we refund every cent. No forms, no questions, no hassle. We back this 100%.</p>",
             "margin_top": 20,
             "margin_bottom": 20
           }
@@ -708,19 +776,19 @@
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-1": {
           "type": "icon",
           "settings": {
-            "icon": "bedtime",
+            "icon": "show_chart",
             "filled_icon": false,
-            "title": "Fall asleep in minutes",
-            "text": "<p>Weighted pressure triggers your body's calming response and silences the mental chatter that keeps you awake.</p>"
+            "title": "See your progress in real time",
+            "text": "<p>The LED counter gives you a number every single session. Day 1: 12 reps. Day 14: 67 reps. That screen is proof you’re getting stronger — and it keeps you coming back.</p>"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2": {
           "type": "icon",
           "settings": {
-            "icon": "visibility_off",
+            "icon": "weekend",
             "filled_icon": false,
-            "title": "Stay in deep sleep longer",
-            "text": "<p>100% blackout means no light breaks through — your sleep cycle runs uninterrupted from start to finish.</p>"
+            "title": "No gym, no commute, no excuses",
+            "text": "<p>It’s 9pm. The kids are finally asleep. You’ve got 15 minutes and zero energy to go anywhere. LunaCore is already in your living room — ready when you are.</p>"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3": {
@@ -728,14 +796,14 @@
           "settings": {
             "icon": "favorite",
             "filled_icon": false,
-            "title": "Wake up feeling human again",
-            "text": "<p>Real rest means real energy. Better focus, better mood, and a body that actually recovered overnight.</p>"
+            "title": "Feel it after the first week",
+            "text": "<p>Stronger core. Better posture. More energy during the day. LunaCore users report feeling a real difference within 7–14 days — without ever stepping foot in a gym.</p>"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Made for people who can't switch off at night",
+            "title": "Built for people who work out between episodes",
             "title_highlight_color": "#8B5E6E",
             "heading_size": "h1"
           }
@@ -743,14 +811,14 @@
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If you lie awake with a spinning mind, wake up at 3am for no reason, or drag yourself through the day on broken sleep — LunaCore was built specifically for you. Over 2,847 customers report falling asleep faster and waking up genuinely rested, often for the first time in years.</p>",
+            "text": "<p>You don’t need a gym membership, a personal trainer, or an hour of free time. You need 10 minutes on your couch and a reason to keep going. That’s exactly what LunaCore gives you — a number on a screen that makes every rep count. Over 2,341 customers are already competing with themselves every night. Join them.</p>",
             "text_style": "body"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Sleep Better Tonight →",
+            "button_label": "Get LunaCore — Move Your Core →",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -796,27 +864,27 @@
           "type": "column",
           "settings": {
             "star_rating": 5,
-            "title": "\"Finally sleeping through the night\"",
-            "text": "<p>I've had insomnia for 6 years. Tried melatonin, apps, everything. The LunaCore mask is the only thing that has actually made a consistent difference. I fall asleep faster and I stay asleep. Genuinely life-changing.</p>",
-            "author": "<em><strong>— Anna L., verified buyer</strong></em>"
+            "title": "\"I never thought I'd get competitive with my own living room\"",
+            "text": "<p>Started at 12 reps on day one. By day 14 I was hitting 67. The LED screen turns it into a game — I literally can’t stop trying to beat my number. My core is noticeably stronger and I never left my couch.</p>",
+            "author": "<em><strong>— Jessica M., verified buyer</strong></em>"
           }
         },
         "template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-2": {
           "type": "column",
           "settings": {
             "star_rating": 5,
-            "title": "\"My nighttime anxiety is gone\"",
-            "text": "<p>I used to lie awake for hours with my thoughts racing. Now I'm asleep within 10 minutes. The weight is so calming — it just works. The cooling fabric is a huge bonus too. No more waking up sweaty.</p>",
-            "author": "<em><strong>— Maria S., verified buyer</strong></em>"
+            "title": "\"I thought it was a gimmick. My abs proved me wrong.\"",
+            "text": "<p>Okay I was skeptical. It looked too simple. Then I tried it for a week and woke up sore in places I forgot existed. Two kids later and I’m actually getting my core back. I never once left my living room.</p>",
+            "author": "<em><strong>— Ashley T., verified buyer</strong></em>"
           }
         },
         "template--21507361800487__55bd100e-3bbd-426c-a5cf-eed7b2a3706f-column-3": {
           "type": "column",
           "settings": {
             "star_rating": 5,
-            "title": "\"Best purchase I've made all year\"",
-            "text": "<p>Got the Friends Pack for me and my sister. We both absolutely love it. The blackout is incredible — total darkness even on bright mornings. I only wish I'd found this sooner. Worth every cent.</p>",
-            "author": "<em><strong>— Sophie K., verified buyer</strong></em>"
+            "title": "\"My husband and I compete every night now\"",
+            "text": "<p>Got the Me + Partner pack and honestly it’s become our thing. We do reps while watching TV and whoever gets the highest score wins. Sounds silly but we haven’t missed a session in 3 weeks. Best purchase of the year.</p>",
+            "author": "<em><strong>— Rachel K., verified buyer</strong></em>"
           }
         }
       },
@@ -828,7 +896,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Real results from real customers",
+        "title": "Real people. Real reps. Real results.",
         "title_highlight_color": "#8B5E6E",
         "heading_size": "h1",
         "text": "",
