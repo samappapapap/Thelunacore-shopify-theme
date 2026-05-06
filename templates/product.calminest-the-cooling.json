@@ -40,7 +40,7 @@
         "subtitle_block": {
           "type": "text",
           "settings": {
-            "text": "<p>Fall asleep in minutes — even if your mind won't switch off.</p>",
+            "text": "<p>The weighted sleep mask that quiets your mind and holds you in darkness — so you actually sleep.</p>",
             "text_style": "subtitle",
             "margin_top": 4,
             "margin_bottom": 12
@@ -52,10 +52,10 @@
             "icon": "check_circle",
             "filled_icon": true,
             "icon_color": "accent-1",
-            "item_1": "<strong>Calms racing thoughts</strong> instantly",
-            "item_2": "<strong>100% blackout</strong> for deeper sleep",
-            "item_3": "<strong>Stays cool and comfortable</strong> all night",
-            "item_4": "",
+            "item_1": "<strong>Stops racing thoughts</strong> in minutes",
+            "item_2": "<strong>100% pitch-black blackout</strong> — zero light gets through",
+            "item_3": "<strong>Cooling fabric stays fresh</strong> all night long",
+            "item_4": "<strong>60-night money-back guarantee</strong> — zero risk",
             "item_5": "",
             "margin_top": 12,
             "margin_bottom": 16
@@ -81,7 +81,7 @@
         "savings_label": {
           "type": "text",
           "settings": {
-            "text": "<p>You save [savings] today</p>",
+            "text": "<p>🎉 You save [savings] — only while stock lasts</p>",
             "text_style": "caption",
             "margin_top": 0,
             "margin_bottom": 15
@@ -103,7 +103,7 @@
             "breaks_border_radius": 10,
             "breaks_border_width": 2,
             "breaks_color_scheme": "accent-1",
-            "breaks_badges": "[empty], Most Popular, [empty]",
+            "breaks_badges": "[empty], Most Popular, Best Value",
             "breaks_badge_style": "1",
             "breaks_badge_color": "accent-1",
             "breaks_displayed_images": "variant_images",
@@ -113,11 +113,11 @@
             "breaks_vertical_images_position": "top",
             "breaks_vertical_prices_layout": "vertical",
             "breaks_labels": "Single, Friends Pack, Family Pack",
-            "breaks_benefits": "[empty], + Free Gifts, + Free Gifts",
+            "breaks_benefits": "[empty], + Free Gifts Included, + Free Gifts Included",
             "breaks_benefit_position": "top",
             "breaks_benefit_style": "outlined",
             "breaks_benefit_color": "accent-1",
-            "breaks_captions": "Standard Price, Buy 2 & Save €7,99, Buy 3 & Save €23,97",
+            "breaks_captions": "Try it once, Buy 2 & Save €7,99, Buy 3 & Save €23,97",
             "breaks_price_texts": "[price], [price], [price]",
             "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
             "margin_top": 15,
@@ -158,7 +158,7 @@
             "option_1_benefit_position": "top",
             "option_1_benefit_style": "outlined",
             "option_1_benefit_color": "accent-1",
-            "option_1_caption": "Standard Price",
+            "option_1_caption": "Try it once",
             "option_1_percentage_off_text": "0",
             "option_1_fixed_amount_off": "0",
             "option_1_price_text": "[price]",
@@ -169,7 +169,7 @@
             "option_2_badge_style": "1",
             "option_2_badge_color": "accent-1",
             "option_2_label": "Friends Pack",
-            "option_2_benefit": "+ Free Gifts",
+            "option_2_benefit": "+ Free Gifts Included",
             "option_2_benefit_position": "top",
             "option_2_benefit_style": "outlined",
             "option_2_benefit_color": "accent-1",
@@ -180,11 +180,11 @@
             "option_2_compare_price": "compare_price",
             "option_2_compare_price_text": "[compare_price]",
             "option_3_quantity": 3,
-            "option_3_badge": "",
+            "option_3_badge": "Best Value",
             "option_3_badge_style": "1",
             "option_3_badge_color": "accent-1",
             "option_3_label": "Family Pack",
-            "option_3_benefit": "+ Free Gifts",
+            "option_3_benefit": "+ Free Gifts Included",
             "option_3_benefit_position": "top",
             "option_3_benefit_style": "outlined",
             "option_3_benefit_color": "accent-1",
@@ -235,7 +235,7 @@
         "trust_strip": {
           "type": "text",
           "settings": {
-            "text": "<p>🚚 Free shipping  ·  🛡 60-night guarantee  ·  ⚡ Ships in 24h</p>",
+            "text": "<p>🚚 Free shipping  ·  🛡️ 60-night guarantee  ·  ⚡ Ships within 24h  ·  🔒 Secure checkout</p>",
             "text_style": "caption",
             "margin_top": 0,
             "margin_bottom": 16
@@ -253,13 +253,13 @@
             "icon_2": "local_shipping",
             "filled_icon_2": false,
             "top_text_2": "<strong>[start_date] - [end_date]</strong>",
-            "bottom_text_2": "Order Ready",
+            "bottom_text_2": "Packed & Shipped",
             "min_days_2": 1,
             "max_days_2": 2,
             "icon_3": "redeem",
             "filled_icon_3": false,
             "top_text_3": "<strong>[start_date] - [end_date]</strong>",
-            "bottom_text_3": "Delivered",
+            "bottom_text_3": "Arrives at Your Door",
             "min_days_3": 10,
             "max_days_3": 12,
             "icon_4": "",
@@ -279,7 +279,7 @@
           "settings": {
             "function": "add_to_cart",
             "display_when": "after_scroll",
-            "button_label": "Get Yours →",
+            "button_label": "Get Yours — Sleep Better Tonight →",
             "enable_custom_btn_color": false,
             "custom_btn_color": "#8B5E6E",
             "color_scheme": "background-1",
@@ -334,11 +334,11 @@
             "display_arrows": false,
             "display_dots": true,
             "author_1": "<em>Sarah M.</em> [stars]",
-            "text_1": "<p>I've tried everything for my insomnia. This mask is the first thing that actually works. I'm asleep within minutes.</p>",
+            "text_1": "<p>I've tried everything for my insomnia. This is the only thing that has ever worked. I'm asleep within minutes and I wake up actually rested.</p>",
             "author_2": "<em>Emma K.</em> [stars]",
-            "text_2": "<p>The weight is so calming. My anxiety at night has completely disappeared since I started using this. Worth every cent.</p>",
+            "text_2": "<p>The gentle weight is so calming — my nighttime anxiety has completely disappeared. I didn't believe it would work. I was wrong.</p>",
             "author_3": "<em>Julia R.</em> [stars]",
-            "text_3": "<p>Bought the Friends Pack for me and my sister — we both love it. The blackout is perfect and it stays cool all night.</p>",
+            "text_3": "<p>Got the Friends Pack for me and my sister. We both sleep so much better. The blackout is perfect and it never gets too warm. 10/10.</p>",
             "margin_top": 24,
             "margin_bottom": 24
           }
@@ -346,14 +346,14 @@
         "de158e68-5d0d-4819-a625-e2dabdff87d1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What's included?",
+            "heading": "What's in the box?",
             "heading_size": "medium",
             "icon": "redeem",
             "filled_icon": false,
             "collapse_icon": "carret",
             "display_top_border": true,
             "open": false,
-            "content": "<p>Every LunaCore mask includes: <br>✓ Weighted sleep mask (200g gentle pressure)<br>✓ Adjustable strap — fits all head sizes<br>✓ Breathable cooling fabric<br>✓ Luxury gift box packaging<br>✓ 60-night sleep guarantee</p>",
+            "content": "<p>Every LunaCore mask comes with everything you need from night one:<br>✓ Weighted sleep mask (200g calming pressure)<br>✓ Adjustable strap — one size fits all<br>✓ Breathable cooling fabric — stays fresh all night<br>✓ Luxury gift-ready box packaging<br>✓ 60-night money-back sleep guarantee</p>",
             "page": "",
             "margin_top": 24,
             "margin_bottom": 0
@@ -458,7 +458,7 @@
           "settings": {
             "column": "col_1",
             "visibility": "always-display",
-            "heading": "Why thousands choose LunaCore",
+            "heading": "Why 2,847+ sleepers chose LunaCore",
             "title_highlight_color": "#8B5E6E",
             "heading_size": "h1",
             "alignment": "center",
@@ -472,7 +472,7 @@
           "settings": {
             "column": "col_1",
             "visibility": "always-display",
-            "text": "<p>Designed for people whose minds won't stop at night. The LunaCore mask combines gentle weighted pressure with 100% blackout to create the perfect sleep environment — every single night.</p>",
+            "text": "<p>Most sleep products treat the symptoms. LunaCore treats the cause. By combining scientifically-backed weighted pressure with total-blackout design, we give your mind and body the exact signals they need to shut down — and stay down.</p>",
             "text_style": "body",
             "alignment": "center",
             "mobile_alignment": "mobile-center",
@@ -493,7 +493,7 @@
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
             "title": "Weighted Calm",
-            "text": "<p>200g of gentle pressure signals to your nervous system that it's safe to relax — just like a hug.</p>",
+            "text": "<p>200g of gentle pressure activates your body's natural relaxation response — the same science behind weighted blankets, applied directly where it works best.</p>",
             "margin_top": 20,
             "margin_bottom": 30
           }
@@ -510,8 +510,8 @@
             "icon_color": "accent-1",
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
-            "title": "Total Darkness",
-            "text": "<p>100% blackout blocks all light — street lamps, phone screens, early sunrise. Sleep undisturbed.</p>",
+            "title": "Pitch-Black Blackout",
+            "text": "<p>Even the tiniest sliver of light disrupts melatonin. LunaCore blocks 100% — street lights, phone screens, early sunrise, all of it.</p>",
             "margin_top": 20,
             "margin_bottom": 20
           }
@@ -541,8 +541,8 @@
             "icon_color": "accent-1",
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
-            "title": "Stays Cool",
-            "text": "<p>Breathable cooling fabric keeps you comfortable all night — no more waking up hot and uncomfortable.</p>",
+            "title": "Stays Cool All Night",
+            "text": "<p>Our breathable cooling fabric prevents overheating — the #1 reason people wake up at 3am. You stay comfortable from lights-out to morning.</p>",
             "margin_top": 20,
             "margin_bottom": 30
           }
@@ -560,7 +560,7 @@
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
             "title": "60-Night Guarantee",
-            "text": "<p>Try it for 60 nights. If you don't sleep better, we'll refund every cent — no questions asked.</p>",
+            "text": "<p>Sleep with it for 60 nights. If you don't feel the difference, we'll refund every cent. No forms. No questions. No hassle.</p>",
             "margin_top": 20,
             "margin_bottom": 20
           }
@@ -710,8 +710,8 @@
           "settings": {
             "icon": "bedtime",
             "filled_icon": false,
-            "title": "Fall asleep faster",
-            "text": "<p>Gentle weighted pressure calms your nervous system and quiets a busy mind in minutes.</p>"
+            "title": "Fall asleep in minutes",
+            "text": "<p>Weighted pressure triggers your body's calming response and silences the mental chatter that keeps you awake.</p>"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2": {
@@ -719,8 +719,8 @@
           "settings": {
             "icon": "visibility_off",
             "filled_icon": false,
-            "title": "Stay asleep longer",
-            "text": "<p>100% blackout eliminates light disruptions that pull you out of deep sleep stages.</p>"
+            "title": "Stay in deep sleep longer",
+            "text": "<p>100% blackout means no light breaks through — your sleep cycle runs uninterrupted from start to finish.</p>"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3": {
@@ -728,14 +728,14 @@
           "settings": {
             "icon": "favorite",
             "filled_icon": false,
-            "title": "Wake up refreshed",
-            "text": "<p>Better sleep quality means more energy, better mood, and sharper focus — every single day.</p>"
+            "title": "Wake up feeling human again",
+            "text": "<p>Real rest means real energy. Better focus, better mood, and a body that actually recovered overnight.</p>"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Designed for people who struggle to sleep",
+            "title": "Made for people who can't switch off at night",
             "title_highlight_color": "#8B5E6E",
             "heading_size": "h1"
           }
@@ -743,14 +743,14 @@
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If you lie awake with a racing mind, wake up in the night, or never feel fully rested — the LunaCore mask was made for you. Thousands of customers report falling asleep faster and waking up feeling genuinely rested for the first time in years.</p>",
+            "text": "<p>If you lie awake with a spinning mind, wake up at 3am for no reason, or drag yourself through the day on broken sleep — LunaCore was built specifically for you. Over 2,847 customers report falling asleep faster and waking up genuinely rested, often for the first time in years.</p>",
             "text_style": "body"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Get Yours →",
+            "button_label": "Sleep Better Tonight →",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -797,7 +797,7 @@
           "settings": {
             "star_rating": 5,
             "title": "\"Finally sleeping through the night\"",
-            "text": "<p>I've had insomnia for 6 years. The LunaCore mask is the first thing that has actually made a consistent difference. I fall asleep faster and stay asleep. I can't recommend it enough.</p>",
+            "text": "<p>I've had insomnia for 6 years. Tried melatonin, apps, everything. The LunaCore mask is the only thing that has actually made a consistent difference. I fall asleep faster and I stay asleep. Genuinely life-changing.</p>",
             "author": "<em><strong>— Anna L., verified buyer</strong></em>"
           }
         },
@@ -805,8 +805,8 @@
           "type": "column",
           "settings": {
             "star_rating": 5,
-            "title": "\"My anxiety at night is gone\"",
-            "text": "<p>The weight is so calming. I used to lie awake for hours with racing thoughts. Now I'm asleep within 10 minutes. The cooling fabric is a huge bonus too — no more overheating.</p>",
+            "title": "\"My nighttime anxiety is gone\"",
+            "text": "<p>I used to lie awake for hours with my thoughts racing. Now I'm asleep within 10 minutes. The weight is so calming — it just works. The cooling fabric is a huge bonus too. No more waking up sweaty.</p>",
             "author": "<em><strong>— Maria S., verified buyer</strong></em>"
           }
         },
@@ -814,8 +814,8 @@
           "type": "column",
           "settings": {
             "star_rating": 5,
-            "title": "\"Worth every penny\"",
-            "text": "<p>Bought the Friends Pack for me and my sister. We both absolutely love it. The blackout is incredible — complete darkness even in the morning. Best purchase I've made this year.</p>",
+            "title": "\"Best purchase I've made all year\"",
+            "text": "<p>Got the Friends Pack for me and my sister. We both absolutely love it. The blackout is incredible — total darkness even on bright mornings. I only wish I'd found this sooner. Worth every cent.</p>",
             "author": "<em><strong>— Sophie K., verified buyer</strong></em>"
           }
         }
@@ -828,7 +828,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "What our customers say",
+        "title": "Real results from real customers",
         "title_highlight_color": "#8B5E6E",
         "heading_size": "h1",
         "text": "",
