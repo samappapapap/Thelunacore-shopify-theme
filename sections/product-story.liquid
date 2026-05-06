@@ -1,0 +1,364 @@
+<section class="ps-section">
+<style>
+/* ══════════════════════════════════
+   PRODUCT STORY – SPLIT LAYOUT
+   Left: sticky image | Right: scroll
+   ══════════════════════════════════ */
+.ps-section{
+  width:100%;
+  background:#fff;
+  font-family:'Inter',sans-serif;
+  -webkit-font-smoothing:antialiased;
+  box-sizing:border-box;
+  overflow:hidden;
+  border-top:1px solid #f0e7ea;
+}
+.ps-section *{box-sizing:border-box;margin:0;padding:0}
+
+/* ── GRID ── */
+.ps-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  max-width:1400px;
+  margin:0 auto;
+  min-height:100vh;
+}
+
+/* ── LEFT: STICKY IMAGE ── */
+.ps-left{
+  position:sticky;
+  top:0;
+  height:100vh;
+  overflow:hidden;
+}
+.ps-left img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center center;
+  display:block;
+}
+
+/* ── RIGHT: SCROLLABLE CONTENT ── */
+.ps-right{
+  padding:80px 64px 80px 56px;
+  display:flex;
+  flex-direction:column;
+  gap:0;
+}
+
+/* ── BLOCK SPACING ── */
+.ps-block{
+  padding:40px 0;
+  border-bottom:1px solid #f0e7ea;
+}
+.ps-block:first-child{padding-top:0}
+.ps-block:last-child{border-bottom:none;padding-bottom:0}
+
+/* ── KICKER ── */
+.ps-kicker{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:#8c5f6e;
+  margin-bottom:14px;
+}
+.ps-kicker::before{
+  content:'';
+  width:20px;height:1px;
+  background:linear-gradient(90deg,#b9909c,transparent);
+  flex-shrink:0;
+}
+
+/* ── HEADINGS ── */
+.ps-heading{
+  font-family:'DM Serif Display',serif;
+  font-size:clamp(28px,2.8vw,42px);
+  line-height:1.08;
+  letter-spacing:-.035em;
+  color:#2f292d;
+  font-weight:400;
+  margin-bottom:10px;
+  text-wrap:balance;
+}
+.ps-heading em{
+  font-style:italic;
+  color:#c99ca8;
+}
+
+.ps-subhead{
+  font-size:15px;
+  line-height:1.55;
+  color:#5c5459;
+  max-width:42ch;
+  margin-bottom:0;
+}
+.ps-subhead strong{color:#2f292d;font-weight:600}
+
+/* ── STEP NUMBERS ── */
+.ps-step-num{
+  width:28px;height:28px;
+  border-radius:50%;
+  background:linear-gradient(180deg,#d4a0a7 0%,#c9959c 100%);
+  color:#fff;
+  font-size:12px;
+  font-weight:700;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  box-shadow:0 3px 8px rgba(201,149,156,.28);
+  margin-bottom:14px;
+}
+
+/* ── FEATURES GRID ── */
+.ps-features{
+  display:flex;
+  flex-direction:column;
+  gap:0;
+  margin-top:20px;
+  border-radius:14px;
+  overflow:hidden;
+  border:1px solid #eddde0;
+  box-shadow:0 3px 10px rgba(201,149,156,.08);
+}
+.ps-feat{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px 16px;
+  border-bottom:1px solid #f7eff1;
+  background:#fff;
+  position:relative;
+}
+.ps-feat:last-child{border-bottom:none}
+.ps-feat::before{
+  content:'';
+  position:absolute;
+  left:0;top:0;bottom:0;
+  width:3px;
+  background:linear-gradient(180deg,#e8b0b8,#c9959c);
+  border-radius:0 2px 2px 0;
+}
+.ps-feat-icon{
+  width:32px;height:32px;
+  border-radius:8px;
+  background:linear-gradient(145deg,#fff5f6,#fde8ec);
+  border:1px solid #f0dde1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+}
+.ps-feat-icon svg{
+  width:14px;height:14px;
+  stroke:#c9959c;fill:none;
+  stroke-width:1.7;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.ps-feat-copy{flex:1;min-width:0}
+.ps-feat-label{font-size:13px;font-weight:700;color:#1a1a1a;display:block}
+.ps-feat-sub{font-size:11px;color:#b8a3a8;display:block;margin-top:1px}
+.ps-feat-check{
+  width:20px;height:20px;
+  border-radius:50%;
+  background:linear-gradient(160deg,#d9aab1,#c9959c);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  box-shadow:0 2px 5px rgba(201,149,156,.22);
+}
+.ps-feat-check svg{width:9px;height:9px;stroke:#fff;fill:none;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* ── SCIENCE / RESEARCH ── */
+.ps-science{
+  margin-top:20px;
+  overflow:hidden;
+  border:1px solid #eddde1;
+  border-radius:14px;
+  background:linear-gradient(180deg,#fffdfd,#fbf3f5);
+  box-shadow:0 3px 10px rgba(201,149,156,.07);
+}
+.ps-science-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 16px;
+  border-bottom:1px solid #f3e7ea;
+}
+.ps-science-kicker{font-size:9px;letter-spacing:1.2px;text-transform:uppercase;color:#c9959c;font-weight:700}
+.ps-science-mini{font-size:9px;color:#b59aa0;font-weight:600}
+.ps-science-outer{overflow:hidden;position:relative;width:100%}
+.ps-science-outer::before{content:'';position:absolute;left:0;top:0;bottom:0;width:18px;background:linear-gradient(to right,#fbf3f5,transparent);z-index:2;pointer-events:none}
+.ps-science-outer::after{content:'';position:absolute;right:0;top:0;bottom:0;width:18px;background:linear-gradient(to left,#fbf3f5,transparent);z-index:2;pointer-events:none}
+.ps-science-track{display:flex;width:max-content;gap:8px;padding:10px 12px 12px;animation:psScienceScroll 24s linear infinite;animation-delay:-6s}
+@keyframes psScienceScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ps-science-chip{
+  flex-shrink:0;min-width:110px;height:52px;padding:8px 12px;
+  border-radius:10px;background:rgba(255,255,255,.85);border:1px solid #f0e1e5;
+  display:flex;flex-direction:column;justify-content:center;
+}
+.ps-science-chip strong{display:block;font-size:11px;line-height:1.2;color:#5c2632;font-weight:700}
+.ps-science-chip span{display:block;margin-top:2px;font-size:9px;color:#b09097;font-weight:600}
+.ps-science-chip--wide{min-width:140px}
+.ps-science-chip--pub strong{font-family:'DM Serif Display',Georgia,serif;font-size:16px;font-style:italic}
+
+/* ══ TABLET ══ */
+@media(max-width:1100px){
+  .ps-right{padding:60px 40px 60px 36px}
+}
+
+/* ══ MOBILE ══ */
+@media(max-width:860px){
+  .ps-grid{
+    display:flex;
+    flex-direction:column;
+  }
+  .ps-left{
+    position:relative;
+    height:auto;
+    max-height:70vh;
+  }
+  .ps-left img{
+    width:100%;
+    height:auto;
+    max-height:70vh;
+    object-fit:cover;
+  }
+  .ps-right{
+    padding:32px 16px 48px;
+  }
+  .ps-block{padding:28px 0}
+  .ps-heading{font-size:clamp(24px,6.5vw,32px)}
+}
+
+@media(max-width:480px){
+  .ps-right{padding:24px 14px 40px}
+  .ps-block{padding:22px 0}
+}
+</style>
+
+<div class="ps-grid">
+
+  <!-- ═══ LEFT: STICKY IMAGE ═══ -->
+  <div class="ps-left">
+    <img
+      src="https://cdn.shopify.com/s/files/1/0953/1329/7782/files/160e63e5-b29e-4c7e-93a6-1e274e7a23ef.png?v=1774429717"
+      alt="Luna Nord weighted sleep mask – lifestyle"
+      width="1100"
+      height="1100"
+      loading="lazy"
+    >
+  </div>
+
+  <!-- ═══ RIGHT: SCROLLABLE CONTENT ═══ -->
+  <div class="ps-right">
+
+    <!-- ── BLOCK 1: INTRO + FEATURES ── -->
+    <div class="ps-block">
+      <span class="ps-step-num">1</span>
+      <span class="ps-kicker">Why it's different</span>
+      <h2 class="ps-heading">Precision-weighted, totally blacked out — <em>backed by real research.</em></h2>
+      <p class="ps-subhead">You've seen other sleep masks, but they aren't Luna Nord. Theirs feel flat, bulky, and have no science behind them.</p>
+
+      <div class="ps-features">
+        <div class="ps-feat">
+          <div class="ps-feat-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></div>
+          <div class="ps-feat-copy"><span class="ps-feat-label">Soft-touch feel</span><span class="ps-feat-sub">Skin-kind from first use</span></div>
+          <div class="ps-feat-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div>
+        </div>
+        <div class="ps-feat">
+          <div class="ps-feat-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <div class="ps-feat-copy"><span class="ps-feat-label">Calming weight</span><span class="ps-feat-sub">Cocooning, not heavy</span></div>
+          <div class="ps-feat-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div>
+        </div>
+        <div class="ps-feat">
+          <div class="ps-feat-icon"><svg viewBox="0 0 24 24"><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10A15.3 15.3 0 0112 2z"/></svg></div>
+          <div class="ps-feat-copy"><span class="ps-feat-label">Total blackout</span><span class="ps-feat-sub">Real darkness, not just dim</span></div>
+          <div class="ps-feat-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div>
+        </div>
+        <div class="ps-feat">
+          <div class="ps-feat-icon"><svg viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div class="ps-feat-copy"><span class="ps-feat-label">Gift-worthy finish</span><span class="ps-feat-sub">Premium, beautifully packaged</span></div>
+          <div class="ps-feat-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── BLOCK 2: RESEARCH ── -->
+    <div class="ps-block">
+      <span class="ps-kicker">Published sleep research</span>
+      <h3 class="ps-heading">The science <em>behind the weight.</em></h3>
+      <p class="ps-subhead">Peer-reviewed research shows weighted eye masks improve sleep quality and next-day alertness.</p>
+
+      <div class="ps-science">
+        <div class="ps-science-head">
+          <span class="ps-science-kicker">Research-backed</span>
+          <span class="ps-science-mini">Peer-reviewed</span>
+        </div>
+        <div class="ps-science-outer">
+          <div class="ps-science-track">
+            <div class="ps-science-chip ps-science-chip--wide"><strong>Cardiff University</strong><span>Brain Research Imaging Centre</span></div>
+            <div class="ps-science-chip ps-science-chip--pub"><strong>Sleep Journal</strong><span>publication</span></div>
+            <div class="ps-science-chip ps-science-chip--wide"><strong>Oxford University Press</strong><span>Published 2023</span></div>
+            <div class="ps-science-chip"><strong>Eye Mask Study</strong><span>Next-day alertness</span></div>
+            <div class="ps-science-chip ps-science-chip--wide"><strong>Cardiff University</strong><span>Brain Research Imaging Centre</span></div>
+            <div class="ps-science-chip ps-science-chip--pub"><strong>Sleep Journal</strong><span>publication</span></div>
+            <div class="ps-science-chip ps-science-chip--wide"><strong>Oxford University Press</strong><span>Published 2023</span></div>
+            <div class="ps-science-chip"><strong>Eye Mask Study</strong><span>Next-day alertness</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+</section>
+
+{% schema %}
+{
+  "name": "Product Story",
+  "class": "product-story-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Sticky image"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Story"
+    }
+  ]
+}
+{% endschema %}

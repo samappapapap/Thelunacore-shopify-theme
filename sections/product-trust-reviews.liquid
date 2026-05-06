@@ -1,0 +1,300 @@
+<section class="ptr-section">
+<style>
+.ptr-section{
+  width:100%;
+  background:#fff;
+  font-family:'Inter',sans-serif;
+  -webkit-font-smoothing:antialiased;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+.ptr-section *{box-sizing:border-box;margin:0;padding:0}
+
+.ptr-inner{
+  max-width:1200px;
+  margin:0 auto;
+  padding:56px 48px 64px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:48px;
+  align-items:start;
+}
+
+/* ── LEFT: WHY LUNA NORD ── */
+.ptr-trust{display:flex;flex-direction:column;gap:0}
+.ptr-trust-cap{
+  font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#8c5f6e;margin-bottom:6px;
+}
+.ptr-trust-heading{
+  font-family:'DM Serif Display',serif;
+  font-size:clamp(24px,2.4vw,34px);
+  line-height:1.1;letter-spacing:-.03em;
+  color:#2f292d;font-weight:400;
+  margin-bottom:20px;
+}
+.ptr-trust-heading em{font-style:italic;color:#c99ca8}
+
+.ptr-trust-row{
+  display:flex;align-items:center;gap:12px;
+  padding:14px 0;
+  border-top:1px solid #f5edf0;
+}
+.ptr-trust-row:first-of-type{border-top:none}
+.ptr-trust-ic{
+  width:20px;height:20px;flex-shrink:0;
+  stroke:#c9959c;fill:none;stroke-width:1.6;
+  stroke-linecap:round;stroke-linejoin:round;
+}
+.ptr-trust-label{font-size:14px;font-weight:600;color:#2f292d}
+.ptr-trust-note{font-size:11px;color:#b0a5a8;margin-left:auto;white-space:nowrap}
+
+/* ── RIGHT: REVIEWS ── */
+.ptr-reviews{}
+.ptr-rv-header{
+  display:flex;align-items:center;gap:14px;
+  margin-bottom:20px;
+}
+.ptr-rv-eyebrow{font-size:9px;font-weight:600;letter-spacing:1.8px;text-transform:uppercase;color:#d4b8ba;display:block;margin-bottom:2px}
+.ptr-rv-big{font-family:'DM Serif Display',serif;font-size:36px;font-style:italic;color:#1a1a1a;line-height:1}
+.ptr-rv-right{display:flex;flex-direction:column}
+.ptr-rv-stars{display:flex;gap:2px;margin-bottom:2px}
+.ptr-rv-stars svg{width:13px;height:13px;fill:#c9959c}
+.ptr-rv-count{font-size:10px;color:#aaa;font-weight:500}
+
+.ptr-rv-grid{
+  display:flex;flex-direction:column;gap:10px;
+}
+.ptr-rv-card{
+  background:#fff;
+  border:1px solid #f0e7ea;
+  border-radius:14px;
+  padding:16px 18px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+.ptr-rv-card-top{display:flex;align-items:center;justify-content:space-between}
+.ptr-rv-card-stars{display:flex;gap:1px}
+.ptr-rv-card-stars svg{width:11px;height:11px;fill:#c9959c}
+.ptr-rv-verified{font-size:9px;font-weight:600;color:#b9909c;background:rgba(201,149,156,.08);padding:3px 8px;border-radius:99px;letter-spacing:.5px}
+.ptr-rv-quote{font-size:13.5px;line-height:1.5;color:#3a3a3a;font-weight:400;font-style:italic}
+.ptr-rv-footer{display:flex;align-items:center;gap:8px;margin-top:auto}
+.ptr-rv-avatar{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#f5eaed,#e8d5da);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#c9959c}
+.ptr-rv-name{font-size:11px;font-weight:600;color:#1a1a1a}
+.ptr-rv-date{font-size:10px;color:#bbb}
+
+/* star template */
+.ptr-5stars{display:flex;gap:1px}
+.ptr-5stars svg{width:11px;height:11px;fill:#c9959c}
+
+/* ── URGENCY + GUARANTEE BAR ── */
+.ptr-bottom{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 48px 56px;
+}
+.ptr-urg{
+  background:linear-gradient(135deg,#fff8f8,#fbf3f5);
+  border:1px solid #f0e1e5;
+  border-radius:14px;
+  padding:18px 20px;
+  display:flex;flex-direction:column;
+}
+.ptr-urg-label{font-size:12px;font-weight:700;color:#1a1a1a;margin-bottom:3px}
+.ptr-urg-sub{font-size:10px;color:#aaa;margin-bottom:10px}
+.ptr-urg-bar{width:100%;height:6px;border-radius:99px;background:#f0e7ea;overflow:hidden;margin-bottom:6px}
+.ptr-urg-fill{height:100%;width:91%;border-radius:99px;background:linear-gradient(90deg,#c9959c,#b5656f);display:flex;align-items:center;justify-content:flex-end;padding-right:6px}
+.ptr-urg-fill span{font-size:7px;font-weight:800;color:#fff;letter-spacing:.5px;text-transform:uppercase}
+.ptr-urg-meta{display:flex;justify-content:space-between;font-size:9px;color:#bbb}
+.ptr-urg-meta b{color:#999}
+
+.ptr-guar{
+  display:flex;align-items:center;gap:16px;
+  padding:18px 20px;
+  border:1px solid #eddde1;
+  border-radius:14px;
+  background:linear-gradient(135deg,#fff,#fdf8f9);
+}
+.ptr-guar-badge{
+  width:54px;height:54px;border-radius:50%;
+  background:linear-gradient(180deg,#d4a0a7,#c9959c);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  flex-shrink:0;box-shadow:0 4px 12px rgba(201,149,156,.25);
+}
+.ptr-guar-n{font-size:20px;font-weight:800;color:#fff;line-height:1}
+.ptr-guar-u{font-size:7px;font-weight:700;color:rgba(255,255,255,.85);text-transform:uppercase;letter-spacing:.5px}
+.ptr-guar-title{font-size:13px;font-weight:700;color:#1a1a1a;margin-bottom:3px}
+.ptr-guar-desc{font-size:11px;color:#888;line-height:1.45}
+
+/* ── TABLET ── */
+@media(max-width:1100px){
+  .ptr-inner{padding:44px 32px 52px;gap:36px}
+  .ptr-bottom{padding:0 32px 44px}
+}
+
+/* ── MOBILE ── */
+@media(max-width:860px){
+  .ptr-inner{
+    display:flex;flex-direction:column;
+    padding:36px 16px 44px;gap:32px;
+  }
+  .ptr-rv-grid{
+    flex-direction:row;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    padding-bottom:4px;
+  }
+  .ptr-rv-grid::-webkit-scrollbar{display:none}
+  .ptr-rv-card{
+    flex:0 0 260px;
+    scroll-snap-align:start;
+  }
+  .ptr-bottom{
+    grid-template-columns:1fr;
+    padding:0 16px 36px;
+  }
+}
+@media(max-width:480px){
+  .ptr-inner{padding:28px 14px 36px;gap:24px}
+  .ptr-rv-card{flex:0 0 230px}
+  .ptr-bottom{padding:0 14px 28px}
+}
+</style>
+
+<div class="ptr-inner">
+
+  <!-- LEFT: WHY LUNA NORD -->
+  <div class="ptr-trust">
+    <span class="ptr-trust-cap">Why Luna Nord</span>
+    <h2 class="ptr-trust-heading">Most masks hide the dark. <em>We silence the mind.</em></h2>
+
+    <div class="ptr-trust-row">
+      <svg class="ptr-trust-ic" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+      <span class="ptr-trust-label">Skin-considerate materials</span>
+      <span class="ptr-trust-note">Soft-touch certified</span>
+    </div>
+    <div class="ptr-trust-row">
+      <svg class="ptr-trust-ic" viewBox="0 0 24 24"><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10A15.3 15.3 0 0112 2z"/></svg>
+      <span class="ptr-trust-label">Blackout-focused design</span>
+      <span class="ptr-trust-note">Night-first fit</span>
+    </div>
+    <div class="ptr-trust-row">
+      <svg class="ptr-trust-ic" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span class="ptr-trust-label">4.8 / 5 customer rating</span>
+      <span class="ptr-trust-note">2,800+ reviews</span>
+    </div>
+    <div class="ptr-trust-row">
+      <svg class="ptr-trust-ic" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+      <span class="ptr-trust-label">100% cruelty-free</span>
+      <span class="ptr-trust-note">Vegan materials</span>
+    </div>
+  </div>
+
+  <!-- RIGHT: REVIEWS -->
+  <div class="ptr-reviews">
+    <div class="ptr-rv-header">
+      <div>
+        <span class="ptr-rv-eyebrow">Customer reviews</span>
+        <span class="ptr-rv-big">4.8</span>
+      </div>
+      <div class="ptr-rv-right">
+        <div class="ptr-rv-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <span class="ptr-rv-count">Based on 2,800+ reviews</span>
+      </div>
+    </div>
+
+    <div class="ptr-rv-grid">
+      <div class="ptr-rv-card">
+        <div class="ptr-rv-card-top"><div class="ptr-5stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><span class="ptr-rv-verified">Verified</span></div>
+        <span class="ptr-rv-quote">"I fall asleep in minutes now. Nothing else worked like this."</span>
+        <div class="ptr-rv-footer"><div class="ptr-rv-avatar">E</div><div><div class="ptr-rv-name">Emma R.</div><div class="ptr-rv-date">2 weeks ago</div></div></div>
+      </div>
+      <div class="ptr-rv-card">
+        <div class="ptr-rv-card-top"><div class="ptr-5stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><span class="ptr-rv-verified">Verified</span></div>
+        <span class="ptr-rv-quote">"Best purchase this year. Woke up actually rested."</span>
+        <div class="ptr-rv-footer"><div class="ptr-rv-avatar">S</div><div><div class="ptr-rv-name">Sophie L.</div><div class="ptr-rv-date">1 month ago</div></div></div>
+      </div>
+      <div class="ptr-rv-card">
+        <div class="ptr-rv-card-top"><div class="ptr-5stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><span class="ptr-rv-verified">Verified</span></div>
+        <span class="ptr-rv-quote">"Zero light, total darkness. Insomnia finally under control."</span>
+        <div class="ptr-rv-footer"><div class="ptr-rv-avatar">M</div><div><div class="ptr-rv-name">Mia K.</div><div class="ptr-rv-date">3 weeks ago</div></div></div>
+      </div>
+      <div class="ptr-rv-card">
+        <div class="ptr-rv-card-top"><div class="ptr-5stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><span class="ptr-rv-verified">Verified</span></div>
+        <span class="ptr-rv-quote">"So incredibly soft. My skin has never been happier."</span>
+        <div class="ptr-rv-footer"><div class="ptr-rv-avatar">C</div><div><div class="ptr-rv-name">Clara M.</div><div class="ptr-rv-date">1 week ago</div></div></div>
+      </div>
+      <div class="ptr-rv-card">
+        <div class="ptr-rv-card-top"><div class="ptr-5stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div><span class="ptr-rv-verified">Verified</span></div>
+        <span class="ptr-rv-quote">"The weight is perfect. Wake up genuinely refreshed."</span>
+        <div class="ptr-rv-footer"><div class="ptr-rv-avatar">I</div><div><div class="ptr-rv-name">Isabelle T.</div><div class="ptr-rv-date">2 months ago</div></div></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- URGENCY + GUARANTEE -->
+<div class="ptr-bottom">
+  <div class="ptr-urg">
+    <span class="ptr-urg-label">Selling Out Fast</span>
+    <span class="ptr-urg-sub">Due to high demand, limited quantities available</span>
+    <div class="ptr-urg-bar"><div class="ptr-urg-fill"><span>91% SOLD</span></div></div>
+    <div class="ptr-urg-meta"><span>Available stock</span><span><b>9%</b> remaining</span></div>
+  </div>
+  <div class="ptr-guar">
+    <div class="ptr-guar-badge"><span class="ptr-guar-n">60</span><span class="ptr-guar-u">nights</span></div>
+    <div>
+      <div class="ptr-guar-title">60-day money-back guarantee</div>
+      <div class="ptr-guar-desc">Love your results or get a full refund. No forms, no hassle. 100% risk-free.</div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+{% schema %}
+{
+  "name": "Trust + Reviews",
+  "class": "product-trust-reviews-section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trust + Reviews"
+    }
+  ]
+}
+{% endschema %}
