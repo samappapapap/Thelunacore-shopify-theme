@@ -34,7 +34,7 @@
             "alignment": "flex-start",
             "scroll_id": "",
             "margin_top": 0,
-            "margin_bottom": 9
+            "margin_bottom": 8
           }
         },
         "subtitle_block": {
@@ -47,16 +47,10 @@
           }
         },
         "bullets_block": {
-          "type": "icon_list",
+          "type": "text",
           "settings": {
-            "icon": "check_circle",
-            "filled_icon": true,
-            "icon_color": "accent-1",
-            "item_1": "<strong>Built-in LED counter</strong> tracks every rep automatically",
-            "item_2": "<strong>6 resistance tubes</strong> for a full-body core workout",
-            "item_3": "<strong>Works from your couch, floor or chair</strong> — no gym needed",
-            "item_4": "<strong>30-day money-back guarantee</strong> — zero risk",
-            "item_5": "",
+            "text": "<p>✅ <strong>Built-in LED counter</strong> tracks every rep automatically<br>✅ <strong>6 resistance tubes</strong> for a full-body core workout<br>✅ <strong>Works from your couch, floor or chair</strong> — no gym needed<br>✅ <strong>30-day money-back guarantee</strong> — zero risk</p>",
+            "text_style": "body",
             "margin_top": 12,
             "margin_bottom": 16
           }
@@ -74,8 +68,8 @@
             "filled_icon_1": false,
             "icon_2": "check_circle",
             "filled_icon_2": false,
-            "margin_top": 9,
-            "margin_bottom": 6
+            "margin_top": 8,
+            "margin_bottom": 4
           }
         },
         "savings_label": {
@@ -84,7 +78,7 @@
             "text": "<p>🎉 You save [savings] — limited time offer</p>",
             "text_style": "caption",
             "margin_top": 0,
-            "margin_bottom": 15
+            "margin_bottom": 16
           }
         },
         "5fcc0428-e768-4cb7-bea3-eb0274198dd1": {
@@ -120,8 +114,8 @@
             "breaks_captions": "Try it risk-free, Buy 2 & Save $7, Buy 3 & Save $20",
             "breaks_price_texts": "[price], [price], [price]",
             "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
-            "margin_top": 15,
-            "margin_bottom": 15
+            "margin_top": 16,
+            "margin_bottom": 16
           }
         },
         "04ba004e-2f54-4936-8b1c-8bcadf6573f6": {
@@ -209,8 +203,8 @@
             "option_4_price_text": "[price]",
             "option_4_compare_price": "compare_price",
             "option_4_compare_price_text": "[compare_price]",
-            "margin_top": 15,
-            "margin_bottom": 15
+            "margin_top": 16,
+            "margin_bottom": 16
           }
         },
         "buy_buttons": {
@@ -540,7 +534,7 @@
           "settings": {
             "column": "col_1",
             "visibility": "always-display",
-            "text": "<p>Most fitness products sit in a corner collecting dust. LunaCore is different — because the LED counter makes every rep feel real. You’re not just exercising. You’re competing with yourself. And winning.</p>",
+            "text": "<p>Most fitness products sit in a corner collecting dust. LunaCore is different — because the LED counter makes every rep feel real. You're not just exercising. You're competing with yourself. And winning.</p>",
             "text_style": "body",
             "alignment": "center",
             "mobile_alignment": "mobile-center",
@@ -561,7 +555,7 @@
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
             "title": "LED Rep Counter",
-            "text": "<p>The built-in LED display counts every rep automatically. No app, no Bluetooth, no setup. Just pull and watch the number climb. That number is your progress — and it doesn’t lie.</p>",
+            "text": "<p>The built-in LED display counts every rep automatically. No app, no Bluetooth, no setup. Just pull and watch the number climb. That number is your progress — and it doesn't lie.</p>",
             "margin_top": 20,
             "margin_bottom": 30
           }
@@ -579,7 +573,7 @@
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
             "title": "Works From Your Couch",
-            "text": "<p>Sit on the floor, the sofa, or a chair. No gym membership. No driving. No childcare. Just 10 minutes while Netflix runs in the background — and you’re done.</p>",
+            "text": "<p>Sit on the floor, the sofa, or a chair. No gym membership. No driving. No childcare. Just 10 minutes while Netflix runs in the background — and you're done.</p>",
             "margin_top": 20,
             "margin_bottom": 20
           }
@@ -628,7 +622,7 @@
             "icon_heading_size": "h3",
             "icon_text_alignment": "left",
             "title": "30-Day Guarantee",
-            "text": "<p>Use it for 30 days. If you don’t feel the difference, we refund every cent. No forms, no questions, no hassle. We back this 100%.</p>",
+            "text": "<p>Use it for 30 days. If you don't feel the difference, we refund every cent. No forms, no questions, no hassle. We back this 100%.</p>",
             "margin_top": 20,
             "margin_bottom": 20
           }
@@ -779,7 +773,7 @@
             "icon": "show_chart",
             "filled_icon": false,
             "title": "See your progress in real time",
-            "text": "<p>The LED counter gives you a number every single session. Day 1: 12 reps. Day 14: 67 reps. That screen is proof you’re getting stronger — and it keeps you coming back.</p>"
+            "text": "<p>The LED counter gives you a number every single session. Day 1: 12 reps. Day 14: 67 reps. That screen is proof you're getting stronger — and it keeps you coming back.</p>"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-2": {
@@ -788,7 +782,7 @@
             "icon": "weekend",
             "filled_icon": false,
             "title": "No gym, no commute, no excuses",
-            "text": "<p>It’s 9pm. The kids are finally asleep. You’ve got 15 minutes and zero energy to go anywhere. LunaCore is already in your living room — ready when you are.</p>"
+            "text": "<p>It's 9pm. The kids are finally asleep. You've got 15 minutes and zero energy to go anywhere. LunaCore is already in your living room — ready when you are.</p>"
           }
         },
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-icon-3": {
@@ -811,7 +805,7 @@
         "template--21507361800487__4fc05ee5-1c30-4863-b88f-81cb6fa7c41a-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You don’t need a gym membership, a personal trainer, or an hour of free time. You need 10 minutes on your couch and a reason to keep going. That’s exactly what LunaCore gives you — a number on a screen that makes every rep count. Over 2,341 customers are already competing with themselves every night. Join them.</p>",
+            "text": "<p>You don't need a gym membership, a personal trainer, or an hour of free time. You need 10 minutes on your couch and a reason to keep going. That's exactly what LunaCore gives you — a number on a screen that makes every rep count. Over 2,341 customers are already competing with themselves every night. Join them.</p>",
             "text_style": "body"
           }
         },
@@ -865,7 +859,7 @@
           "settings": {
             "star_rating": 5,
             "title": "\"I never thought I'd get competitive with my own living room\"",
-            "text": "<p>Started at 12 reps on day one. By day 14 I was hitting 67. The LED screen turns it into a game — I literally can’t stop trying to beat my number. My core is noticeably stronger and I never left my couch.</p>",
+            "text": "<p>Started at 12 reps on day one. By day 14 I was hitting 67. The LED screen turns it into a game — I literally can't stop trying to beat my number. My core is noticeably stronger and I never left my couch.</p>",
             "author": "<em><strong>— Jessica M., verified buyer</strong></em>"
           }
         },
@@ -874,7 +868,7 @@
           "settings": {
             "star_rating": 5,
             "title": "\"I thought it was a gimmick. My abs proved me wrong.\"",
-            "text": "<p>Okay I was skeptical. It looked too simple. Then I tried it for a week and woke up sore in places I forgot existed. Two kids later and I’m actually getting my core back. I never once left my living room.</p>",
+            "text": "<p>Okay I was skeptical. It looked too simple. Then I tried it for a week and woke up sore in places I forgot existed. Two kids later and I'm actually getting my core back. I never once left my living room.</p>",
             "author": "<em><strong>— Ashley T., verified buyer</strong></em>"
           }
         },
@@ -883,7 +877,7 @@
           "settings": {
             "star_rating": 5,
             "title": "\"My husband and I compete every night now\"",
-            "text": "<p>Got the Me + Partner pack and honestly it’s become our thing. We do reps while watching TV and whoever gets the highest score wins. Sounds silly but we haven’t missed a session in 3 weeks. Best purchase of the year.</p>",
+            "text": "<p>Got the Me + Partner pack and honestly it's become our thing. We do reps while watching TV and whoever gets the highest score wins. Sounds silly but we haven't missed a session in 3 weeks. Best purchase of the year.</p>",
             "author": "<em><strong>— Rachel K., verified buyer</strong></em>"
           }
         }
